@@ -1,0 +1,3705 @@
+{
+  "version": 1,
+  "generator": "TeePrep",
+  "exportedAt": "2026-07-16T13:59:03.313Z",
+  "document": {
+    "name": "minotaur-girl",
+    "width": 1000,
+    "height": 1400,
+    "background": "transparent"
+  },
+  "layers": [
+    {
+      "id": "layer-root",
+      "name": "Root",
+      "sourceId": "root",
+      "parentId": null,
+      "animationName": "entrance",
+      "index": 0,
+      "visible": true,
+      "objectCount": 1,
+      "bbox": {
+        "x": 468,
+        "y": 1268,
+        "w": 64,
+        "h": 4
+      },
+      "objects": [
+        {
+          "id": "obj-root-001",
+          "sourceId": "root-001",
+          "type": "path",
+          "label": "path-root",
+          "bbox": {
+            "x": 468,
+            "y": 1268,
+            "w": 64,
+            "h": 4
+          },
+          "origin": {
+            "x": 500,
+            "y": 1290
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-hair-back",
+      "name": "Hair Back",
+      "sourceId": "hair-back",
+      "parentId": "head",
+      "animationName": "hair-drift",
+      "index": 1,
+      "visible": true,
+      "objectCount": 8,
+      "bbox": {
+        "x": 282,
+        "y": 126,
+        "w": 436,
+        "h": 530
+      },
+      "objects": [
+        {
+          "id": "obj-hair-back-002",
+          "sourceId": "hair-back-002",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 282,
+            "y": 126,
+            "w": 436,
+            "h": 530
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        },
+        {
+          "id": "obj-hair-back-003",
+          "sourceId": "hair-back-003",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 330,
+            "y": 142,
+            "w": 138,
+            "h": 178
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        },
+        {
+          "id": "obj-hair-back-004",
+          "sourceId": "hair-back-004",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 312,
+            "y": 380,
+            "w": 30,
+            "h": 128
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        },
+        {
+          "id": "obj-hair-back-005",
+          "sourceId": "hair-back-005",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 658,
+            "y": 380,
+            "w": 30,
+            "h": 128
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        },
+        {
+          "id": "obj-hair-back-006",
+          "sourceId": "hair-back-006",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 310,
+            "y": 556,
+            "w": 34,
+            "h": 84
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        },
+        {
+          "id": "obj-hair-back-007",
+          "sourceId": "hair-back-007",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 488,
+            "y": 140,
+            "w": 78,
+            "h": 56
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        },
+        {
+          "id": "obj-hair-back-008",
+          "sourceId": "hair-back-008",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 636,
+            "y": 262,
+            "w": 40,
+            "h": 110
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        },
+        {
+          "id": "obj-hair-back-009",
+          "sourceId": "hair-back-009",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 324,
+            "y": 262,
+            "w": 40,
+            "h": 110
+          },
+          "origin": {
+            "x": 500,
+            "y": 190
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-tail",
+      "name": "Tail",
+      "sourceId": "tail",
+      "parentId": "hips",
+      "animationName": "tail-sway",
+      "index": 2,
+      "visible": true,
+      "objectCount": 3,
+      "bbox": {
+        "x": 580,
+        "y": 796,
+        "w": 102,
+        "h": 202
+      },
+      "objects": [
+        {
+          "id": "obj-tail-010",
+          "sourceId": "tail-010",
+          "type": "path",
+          "label": "path-tail",
+          "bbox": {
+            "x": 580,
+            "y": 796,
+            "w": 98,
+            "h": 150
+          },
+          "origin": {
+            "x": 585,
+            "y": 800
+          }
+        },
+        {
+          "id": "obj-tail-011",
+          "sourceId": "tail-011",
+          "type": "path",
+          "label": "path-tail",
+          "bbox": {
+            "x": 620,
+            "y": 928,
+            "w": 62,
+            "h": 70
+          },
+          "origin": {
+            "x": 585,
+            "y": 800
+          }
+        },
+        {
+          "id": "obj-tail-012",
+          "sourceId": "tail-012",
+          "type": "path",
+          "label": "path-tail",
+          "bbox": {
+            "x": 644,
+            "y": 940,
+            "w": 24,
+            "h": 26
+          },
+          "origin": {
+            "x": 585,
+            "y": 800
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-l-thigh",
+      "name": "Leg L Thigh",
+      "sourceId": "leg-left-thigh",
+      "parentId": "hips",
+      "animationName": "walk-thigh",
+      "index": 3,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 412,
+        "y": 800,
+        "w": 78,
+        "h": 234
+      },
+      "objects": [
+        {
+          "id": "obj-leg-left-thigh-013",
+          "sourceId": "leg-left-thigh-013",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 412,
+            "y": 800,
+            "w": 78,
+            "h": 234
+          },
+          "origin": {
+            "x": 455,
+            "y": 810
+          }
+        },
+        {
+          "id": "obj-leg-left-thigh-014",
+          "sourceId": "leg-left-thigh-014",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 423,
+            "y": 812,
+            "w": 25,
+            "h": 210
+          },
+          "origin": {
+            "x": 455,
+            "y": 810
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-l-shin",
+      "name": "Leg L Shin",
+      "sourceId": "leg-left-shin",
+      "parentId": "leg-left-thigh",
+      "animationName": "walk-shin",
+      "index": 4,
+      "visible": true,
+      "objectCount": 4,
+      "bbox": {
+        "x": 416,
+        "y": 1012,
+        "w": 72,
+        "h": 166
+      },
+      "objects": [
+        {
+          "id": "obj-leg-left-shin-015",
+          "sourceId": "leg-left-shin-015",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 420,
+            "y": 1024,
+            "w": 59,
+            "h": 154
+          },
+          "origin": {
+            "x": 452,
+            "y": 1032
+          }
+        },
+        {
+          "id": "obj-leg-left-shin-016",
+          "sourceId": "leg-left-shin-016",
+          "type": "ellipse",
+          "label": "ellipse-leg-",
+          "bbox": {
+            "x": 416,
+            "y": 1012,
+            "w": 72,
+            "h": 36
+          },
+          "origin": {
+            "x": 452,
+            "y": 1032
+          }
+        },
+        {
+          "id": "obj-leg-left-shin-017",
+          "sourceId": "leg-left-shin-017",
+          "type": "ellipse",
+          "label": "ellipse-leg-",
+          "bbox": {
+            "x": 434,
+            "y": 1020,
+            "w": 20,
+            "h": 12
+          },
+          "origin": {
+            "x": 452,
+            "y": 1032
+          }
+        },
+        {
+          "id": "obj-leg-left-shin-018",
+          "sourceId": "leg-left-shin-018",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 432,
+            "y": 1064,
+            "w": 20,
+            "h": 66
+          },
+          "origin": {
+            "x": 452,
+            "y": 1032
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-l-foot",
+      "name": "Leg L Foot",
+      "sourceId": "leg-left-foot",
+      "parentId": "leg-left-shin",
+      "animationName": "walk-foot",
+      "index": 5,
+      "visible": true,
+      "objectCount": 5,
+      "bbox": {
+        "x": 412,
+        "y": 1148,
+        "w": 98,
+        "h": 178
+      },
+      "objects": [
+        {
+          "id": "obj-leg-left-foot-019",
+          "sourceId": "leg-left-foot-019",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 412,
+            "y": 1168,
+            "w": 98,
+            "h": 154
+          },
+          "origin": {
+            "x": 452,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-left-foot-020",
+          "sourceId": "leg-left-foot-020",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 414,
+            "y": 1148,
+            "w": 74,
+            "h": 52
+          },
+          "origin": {
+            "x": 452,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-left-foot-021",
+          "sourceId": "leg-left-foot-021",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 424,
+            "y": 1200,
+            "w": 24,
+            "h": 40
+          },
+          "origin": {
+            "x": 452,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-left-foot-022",
+          "sourceId": "leg-left-foot-022",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 420,
+            "y": 1244,
+            "w": 70,
+            "h": 18
+          },
+          "origin": {
+            "x": 452,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-left-foot-023",
+          "sourceId": "leg-left-foot-023",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 416,
+            "y": 1298,
+            "w": 92,
+            "h": 28
+          },
+          "origin": {
+            "x": 452,
+            "y": 1240
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-l-toes",
+      "name": "Leg L Toes",
+      "sourceId": "leg-left-toes",
+      "parentId": "leg-left-foot",
+      "animationName": "toe-tap",
+      "index": 6,
+      "visible": true,
+      "objectCount": 1,
+      "bbox": {
+        "x": 470,
+        "y": 1274,
+        "w": 40,
+        "h": 38
+      },
+      "objects": [
+        {
+          "id": "obj-leg-left-toes-024",
+          "sourceId": "leg-left-toes-024",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 470,
+            "y": 1274,
+            "w": 40,
+            "h": 38
+          },
+          "origin": {
+            "x": 466,
+            "y": 1290
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-r-thigh",
+      "name": "Leg R Thigh",
+      "sourceId": "leg-right-thigh",
+      "parentId": "hips",
+      "animationName": "walk-thigh",
+      "index": 7,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 510,
+        "y": 800,
+        "w": 78,
+        "h": 234
+      },
+      "objects": [
+        {
+          "id": "obj-leg-right-thigh-025",
+          "sourceId": "leg-right-thigh-025",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 510,
+            "y": 800,
+            "w": 78,
+            "h": 234
+          },
+          "origin": {
+            "x": 545,
+            "y": 810
+          }
+        },
+        {
+          "id": "obj-leg-right-thigh-026",
+          "sourceId": "leg-right-thigh-026",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 552,
+            "y": 812,
+            "w": 25,
+            "h": 210
+          },
+          "origin": {
+            "x": 545,
+            "y": 810
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-r-shin",
+      "name": "Leg R Shin",
+      "sourceId": "leg-right-shin",
+      "parentId": "leg-right-thigh",
+      "animationName": "walk-shin",
+      "index": 8,
+      "visible": true,
+      "objectCount": 4,
+      "bbox": {
+        "x": 512,
+        "y": 1012,
+        "w": 72,
+        "h": 166
+      },
+      "objects": [
+        {
+          "id": "obj-leg-right-shin-027",
+          "sourceId": "leg-right-shin-027",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 521,
+            "y": 1024,
+            "w": 59,
+            "h": 154
+          },
+          "origin": {
+            "x": 548,
+            "y": 1032
+          }
+        },
+        {
+          "id": "obj-leg-right-shin-028",
+          "sourceId": "leg-right-shin-028",
+          "type": "ellipse",
+          "label": "ellipse-leg-",
+          "bbox": {
+            "x": 512,
+            "y": 1012,
+            "w": 72,
+            "h": 36
+          },
+          "origin": {
+            "x": 548,
+            "y": 1032
+          }
+        },
+        {
+          "id": "obj-leg-right-shin-029",
+          "sourceId": "leg-right-shin-029",
+          "type": "ellipse",
+          "label": "ellipse-leg-",
+          "bbox": {
+            "x": 546,
+            "y": 1020,
+            "w": 20,
+            "h": 12
+          },
+          "origin": {
+            "x": 548,
+            "y": 1032
+          }
+        },
+        {
+          "id": "obj-leg-right-shin-030",
+          "sourceId": "leg-right-shin-030",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 548,
+            "y": 1064,
+            "w": 20,
+            "h": 66
+          },
+          "origin": {
+            "x": 548,
+            "y": 1032
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-r-foot",
+      "name": "Leg R Foot",
+      "sourceId": "leg-right-foot",
+      "parentId": "leg-right-shin",
+      "animationName": "walk-foot",
+      "index": 9,
+      "visible": true,
+      "objectCount": 5,
+      "bbox": {
+        "x": 490,
+        "y": 1148,
+        "w": 98,
+        "h": 178
+      },
+      "objects": [
+        {
+          "id": "obj-leg-right-foot-031",
+          "sourceId": "leg-right-foot-031",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 490,
+            "y": 1168,
+            "w": 98,
+            "h": 154
+          },
+          "origin": {
+            "x": 548,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-right-foot-032",
+          "sourceId": "leg-right-foot-032",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 512,
+            "y": 1148,
+            "w": 74,
+            "h": 52
+          },
+          "origin": {
+            "x": 548,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-right-foot-033",
+          "sourceId": "leg-right-foot-033",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 552,
+            "y": 1200,
+            "w": 24,
+            "h": 40
+          },
+          "origin": {
+            "x": 548,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-right-foot-034",
+          "sourceId": "leg-right-foot-034",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 510,
+            "y": 1244,
+            "w": 70,
+            "h": 18
+          },
+          "origin": {
+            "x": 548,
+            "y": 1240
+          }
+        },
+        {
+          "id": "obj-leg-right-foot-035",
+          "sourceId": "leg-right-foot-035",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 492,
+            "y": 1298,
+            "w": 92,
+            "h": 28
+          },
+          "origin": {
+            "x": 548,
+            "y": 1240
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-leg-r-toes",
+      "name": "Leg R Toes",
+      "sourceId": "leg-right-toes",
+      "parentId": "leg-right-foot",
+      "animationName": "toe-tap",
+      "index": 10,
+      "visible": true,
+      "objectCount": 1,
+      "bbox": {
+        "x": 490,
+        "y": 1274,
+        "w": 40,
+        "h": 38
+      },
+      "objects": [
+        {
+          "id": "obj-leg-right-toes-036",
+          "sourceId": "leg-right-toes-036",
+          "type": "path",
+          "label": "path-leg-",
+          "bbox": {
+            "x": 490,
+            "y": 1274,
+            "w": 40,
+            "h": 38
+          },
+          "origin": {
+            "x": 534,
+            "y": 1290
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-hips-skirt",
+      "name": "Hips + Skirt",
+      "sourceId": "hips",
+      "parentId": "root",
+      "animationName": "sway",
+      "index": 11,
+      "visible": true,
+      "objectCount": 10,
+      "bbox": {
+        "x": 350,
+        "y": 688,
+        "w": 300,
+        "h": 336
+      },
+      "objects": [
+        {
+          "id": "obj-hips-037",
+          "sourceId": "hips-037",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 410,
+            "y": 688,
+            "w": 180,
+            "h": 26
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-038",
+          "sourceId": "hips-038",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 484,
+            "y": 690,
+            "w": 32,
+            "h": 22
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-039",
+          "sourceId": "hips-039",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 490,
+            "y": 695,
+            "w": 20,
+            "h": 12
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-040",
+          "sourceId": "hips-040",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 350,
+            "y": 710,
+            "w": 300,
+            "h": 314
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-041",
+          "sourceId": "hips-041",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 408,
+            "y": 716,
+            "w": 64,
+            "h": 288
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-042",
+          "sourceId": "hips-042",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 528,
+            "y": 716,
+            "w": 64,
+            "h": 288
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-043",
+          "sourceId": "hips-043",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 492,
+            "y": 720,
+            "w": 16,
+            "h": 280
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-044",
+          "sourceId": "hips-044",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 366,
+            "y": 852,
+            "w": 50,
+            "h": 96
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-045",
+          "sourceId": "hips-045",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 584,
+            "y": 852,
+            "w": 50,
+            "h": 96
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        },
+        {
+          "id": "obj-hips-046",
+          "sourceId": "hips-046",
+          "type": "path",
+          "label": "path-hips",
+          "bbox": {
+            "x": 350,
+            "y": 984,
+            "w": 300,
+            "h": 40
+          },
+          "origin": {
+            "x": 500,
+            "y": 720
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-torso",
+      "name": "Torso",
+      "sourceId": "torso",
+      "parentId": "hips",
+      "animationName": "idle-breathe",
+      "index": 12,
+      "visible": true,
+      "objectCount": 11,
+      "bbox": {
+        "x": 382,
+        "y": 438,
+        "w": 236,
+        "h": 262
+      },
+      "objects": [
+        {
+          "id": "obj-torso-047",
+          "sourceId": "torso-047",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 382,
+            "y": 438,
+            "w": 236,
+            "h": 262
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-048",
+          "sourceId": "torso-048",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 396,
+            "y": 482,
+            "w": 52,
+            "h": 202
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-049",
+          "sourceId": "torso-049",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 564,
+            "y": 482,
+            "w": 40,
+            "h": 200
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-050",
+          "sourceId": "torso-050",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 386,
+            "y": 450,
+            "w": 80,
+            "h": 250
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-051",
+          "sourceId": "torso-051",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 534,
+            "y": 450,
+            "w": 80,
+            "h": 250
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-052",
+          "sourceId": "torso-052",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 444,
+            "y": 462,
+            "w": 22,
+            "h": 238
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-053",
+          "sourceId": "torso-053",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 534,
+            "y": 462,
+            "w": 22,
+            "h": 238
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-054",
+          "sourceId": "torso-054",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 466,
+            "y": 440,
+            "w": 68,
+            "h": 26
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-055",
+          "sourceId": "torso-055",
+          "type": "star",
+          "label": "star-tors",
+          "bbox": {
+            "x": 478,
+            "y": 470,
+            "w": 44,
+            "h": 44
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-056",
+          "sourceId": "torso-056",
+          "type": "star",
+          "label": "star-tors",
+          "bbox": {
+            "x": 490,
+            "y": 480,
+            "w": 20,
+            "h": 20
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        },
+        {
+          "id": "obj-torso-057",
+          "sourceId": "torso-057",
+          "type": "path",
+          "label": "path-tors",
+          "bbox": {
+            "x": 472,
+            "y": 522,
+            "w": 54,
+            "h": 46
+          },
+          "origin": {
+            "x": 500,
+            "y": 690
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-l-upper",
+      "name": "Arm L Upper",
+      "sourceId": "arm-left-upper",
+      "parentId": "torso",
+      "animationName": "shoulder-l",
+      "index": 13,
+      "visible": true,
+      "objectCount": 3,
+      "bbox": {
+        "x": 348,
+        "y": 450,
+        "w": 64,
+        "h": 208
+      },
+      "objects": [
+        {
+          "id": "obj-arm-left-upper-058",
+          "sourceId": "arm-left-upper-058",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 358,
+            "y": 478,
+            "w": 50,
+            "h": 180
+          },
+          "origin": {
+            "x": 402,
+            "y": 486
+          }
+        },
+        {
+          "id": "obj-arm-left-upper-059",
+          "sourceId": "arm-left-upper-059",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 372,
+            "y": 500,
+            "w": 24,
+            "h": 140
+          },
+          "origin": {
+            "x": 402,
+            "y": 486
+          }
+        },
+        {
+          "id": "obj-arm-left-upper-060",
+          "sourceId": "arm-left-upper-060",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 348,
+            "y": 450,
+            "w": 64,
+            "h": 82
+          },
+          "origin": {
+            "x": 402,
+            "y": 486
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-l-forearm",
+      "name": "Arm L Forearm",
+      "sourceId": "arm-left-fore",
+      "parentId": "arm-left-upper",
+      "animationName": "elbow-l",
+      "index": 14,
+      "visible": true,
+      "objectCount": 4,
+      "bbox": {
+        "x": 346,
+        "y": 624,
+        "w": 55,
+        "h": 158
+      },
+      "objects": [
+        {
+          "id": "obj-arm-left-fore-061",
+          "sourceId": "arm-left-fore-061",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 346,
+            "y": 636,
+            "w": 50,
+            "h": 146
+          },
+          "origin": {
+            "x": 374,
+            "y": 642
+          }
+        },
+        {
+          "id": "obj-arm-left-fore-062",
+          "sourceId": "arm-left-fore-062",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 355,
+            "y": 652,
+            "w": 15,
+            "h": 114
+          },
+          "origin": {
+            "x": 374,
+            "y": 642
+          }
+        },
+        {
+          "id": "obj-arm-left-fore-063",
+          "sourceId": "arm-left-fore-063",
+          "type": "ellipse",
+          "label": "ellipse-arm-",
+          "bbox": {
+            "x": 351,
+            "y": 624,
+            "w": 50,
+            "h": 36
+          },
+          "origin": {
+            "x": 374,
+            "y": 642
+          }
+        },
+        {
+          "id": "obj-arm-left-fore-064",
+          "sourceId": "arm-left-fore-064",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 350,
+            "y": 742,
+            "w": 44,
+            "h": 16
+          },
+          "origin": {
+            "x": 374,
+            "y": 642
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-l-hand",
+      "name": "Arm L Hand",
+      "sourceId": "arm-left-hand",
+      "parentId": "arm-left-fore",
+      "animationName": "wrist-l",
+      "index": 15,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 336,
+        "y": 759,
+        "w": 56,
+        "h": 69
+      },
+      "objects": [
+        {
+          "id": "obj-arm-left-hand-065",
+          "sourceId": "arm-left-hand-065",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 336,
+            "y": 768,
+            "w": 56,
+            "h": 60
+          },
+          "origin": {
+            "x": 364,
+            "y": 772
+          }
+        },
+        {
+          "id": "obj-arm-left-hand-066",
+          "sourceId": "arm-left-hand-066",
+          "type": "ellipse",
+          "label": "ellipse-arm-",
+          "bbox": {
+            "x": 346,
+            "y": 759,
+            "w": 38,
+            "h": 26
+          },
+          "origin": {
+            "x": 364,
+            "y": 772
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-l-fingers",
+      "name": "Arm L Fingers",
+      "sourceId": "arm-left-fingers",
+      "parentId": "arm-left-hand",
+      "animationName": "finger-curl",
+      "index": 16,
+      "visible": true,
+      "objectCount": 4,
+      "bbox": {
+        "x": 338,
+        "y": 784,
+        "w": 58,
+        "h": 48
+      },
+      "objects": [
+        {
+          "id": "obj-arm-left-fingers-067",
+          "sourceId": "arm-left-fingers-067",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 338,
+            "y": 800,
+            "w": 22,
+            "h": 26
+          },
+          "origin": {
+            "x": 366,
+            "y": 806
+          }
+        },
+        {
+          "id": "obj-arm-left-fingers-068",
+          "sourceId": "arm-left-fingers-068",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 354,
+            "y": 806,
+            "w": 20,
+            "h": 26
+          },
+          "origin": {
+            "x": 366,
+            "y": 806
+          }
+        },
+        {
+          "id": "obj-arm-left-fingers-069",
+          "sourceId": "arm-left-fingers-069",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 370,
+            "y": 806,
+            "w": 18,
+            "h": 22
+          },
+          "origin": {
+            "x": 366,
+            "y": 806
+          }
+        },
+        {
+          "id": "obj-arm-left-fingers-070",
+          "sourceId": "arm-left-fingers-070",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 380,
+            "y": 784,
+            "w": 16,
+            "h": 20
+          },
+          "origin": {
+            "x": 366,
+            "y": 806
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-r-upper",
+      "name": "Arm R Upper",
+      "sourceId": "arm-right-upper",
+      "parentId": "torso",
+      "animationName": "wave",
+      "index": 17,
+      "visible": true,
+      "objectCount": 3,
+      "bbox": {
+        "x": 588,
+        "y": 450,
+        "w": 64,
+        "h": 208
+      },
+      "objects": [
+        {
+          "id": "obj-arm-right-upper-071",
+          "sourceId": "arm-right-upper-071",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 592,
+            "y": 478,
+            "w": 50,
+            "h": 180
+          },
+          "origin": {
+            "x": 598,
+            "y": 486
+          }
+        },
+        {
+          "id": "obj-arm-right-upper-072",
+          "sourceId": "arm-right-upper-072",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 604,
+            "y": 500,
+            "w": 24,
+            "h": 140
+          },
+          "origin": {
+            "x": 598,
+            "y": 486
+          }
+        },
+        {
+          "id": "obj-arm-right-upper-073",
+          "sourceId": "arm-right-upper-073",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 588,
+            "y": 450,
+            "w": 64,
+            "h": 82
+          },
+          "origin": {
+            "x": 598,
+            "y": 486
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-r-forearm",
+      "name": "Arm R Forearm",
+      "sourceId": "arm-right-fore",
+      "parentId": "arm-right-upper",
+      "animationName": "elbow-r",
+      "index": 18,
+      "visible": true,
+      "objectCount": 4,
+      "bbox": {
+        "x": 599,
+        "y": 624,
+        "w": 55,
+        "h": 158
+      },
+      "objects": [
+        {
+          "id": "obj-arm-right-fore-074",
+          "sourceId": "arm-right-fore-074",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 604,
+            "y": 636,
+            "w": 50,
+            "h": 146
+          },
+          "origin": {
+            "x": 626,
+            "y": 642
+          }
+        },
+        {
+          "id": "obj-arm-right-fore-075",
+          "sourceId": "arm-right-fore-075",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 630,
+            "y": 652,
+            "w": 15,
+            "h": 114
+          },
+          "origin": {
+            "x": 626,
+            "y": 642
+          }
+        },
+        {
+          "id": "obj-arm-right-fore-076",
+          "sourceId": "arm-right-fore-076",
+          "type": "ellipse",
+          "label": "ellipse-arm-",
+          "bbox": {
+            "x": 599,
+            "y": 624,
+            "w": 50,
+            "h": 36
+          },
+          "origin": {
+            "x": 626,
+            "y": 642
+          }
+        },
+        {
+          "id": "obj-arm-right-fore-077",
+          "sourceId": "arm-right-fore-077",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 606,
+            "y": 742,
+            "w": 44,
+            "h": 16
+          },
+          "origin": {
+            "x": 626,
+            "y": 642
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-r-hand",
+      "name": "Arm R Hand",
+      "sourceId": "arm-right-hand",
+      "parentId": "arm-right-fore",
+      "animationName": "wrist-r",
+      "index": 19,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 608,
+        "y": 759,
+        "w": 56,
+        "h": 69
+      },
+      "objects": [
+        {
+          "id": "obj-arm-right-hand-078",
+          "sourceId": "arm-right-hand-078",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 608,
+            "y": 768,
+            "w": 56,
+            "h": 60
+          },
+          "origin": {
+            "x": 636,
+            "y": 772
+          }
+        },
+        {
+          "id": "obj-arm-right-hand-079",
+          "sourceId": "arm-right-hand-079",
+          "type": "ellipse",
+          "label": "ellipse-arm-",
+          "bbox": {
+            "x": 616,
+            "y": 759,
+            "w": 38,
+            "h": 26
+          },
+          "origin": {
+            "x": 636,
+            "y": 772
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-arm-r-fingers",
+      "name": "Arm R Fingers",
+      "sourceId": "arm-right-fingers",
+      "parentId": "arm-right-hand",
+      "animationName": "finger-curl",
+      "index": 20,
+      "visible": true,
+      "objectCount": 4,
+      "bbox": {
+        "x": 604,
+        "y": 784,
+        "w": 58,
+        "h": 48
+      },
+      "objects": [
+        {
+          "id": "obj-arm-right-fingers-080",
+          "sourceId": "arm-right-fingers-080",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 640,
+            "y": 800,
+            "w": 22,
+            "h": 26
+          },
+          "origin": {
+            "x": 634,
+            "y": 806
+          }
+        },
+        {
+          "id": "obj-arm-right-fingers-081",
+          "sourceId": "arm-right-fingers-081",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 626,
+            "y": 806,
+            "w": 20,
+            "h": 26
+          },
+          "origin": {
+            "x": 634,
+            "y": 806
+          }
+        },
+        {
+          "id": "obj-arm-right-fingers-082",
+          "sourceId": "arm-right-fingers-082",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 612,
+            "y": 806,
+            "w": 18,
+            "h": 22
+          },
+          "origin": {
+            "x": 634,
+            "y": 806
+          }
+        },
+        {
+          "id": "obj-arm-right-fingers-083",
+          "sourceId": "arm-right-fingers-083",
+          "type": "path",
+          "label": "path-arm-",
+          "bbox": {
+            "x": 604,
+            "y": 784,
+            "w": 16,
+            "h": 20
+          },
+          "origin": {
+            "x": 634,
+            "y": 806
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-neck",
+      "name": "Neck",
+      "sourceId": "neck",
+      "parentId": "torso",
+      "animationName": "neck-tilt",
+      "index": 21,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 456,
+        "y": 396,
+        "w": 88,
+        "h": 50
+      },
+      "objects": [
+        {
+          "id": "obj-neck-084",
+          "sourceId": "neck-084",
+          "type": "path",
+          "label": "path-neck",
+          "bbox": {
+            "x": 456,
+            "y": 396,
+            "w": 88,
+            "h": 50
+          },
+          "origin": {
+            "x": 500,
+            "y": 445
+          }
+        },
+        {
+          "id": "obj-neck-085",
+          "sourceId": "neck-085",
+          "type": "path",
+          "label": "path-neck",
+          "bbox": {
+            "x": 466,
+            "y": 400,
+            "w": 34,
+            "h": 44
+          },
+          "origin": {
+            "x": 500,
+            "y": 445
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-head",
+      "name": "Head",
+      "sourceId": "head",
+      "parentId": "neck",
+      "animationName": "head-bob",
+      "index": 22,
+      "visible": true,
+      "objectCount": 11,
+      "bbox": {
+        "x": 391,
+        "y": 158,
+        "w": 218,
+        "h": 242
+      },
+      "objects": [
+        {
+          "id": "obj-head-094",
+          "sourceId": "head-094",
+          "type": "path",
+          "label": "path-head",
+          "bbox": {
+            "x": 391,
+            "y": 158,
+            "w": 218,
+            "h": 242
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-095",
+          "sourceId": "head-095",
+          "type": "path",
+          "label": "path-head",
+          "bbox": {
+            "x": 408,
+            "y": 290,
+            "w": 22,
+            "h": 58
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-096",
+          "sourceId": "head-096",
+          "type": "path",
+          "label": "path-head",
+          "bbox": {
+            "x": 570,
+            "y": 290,
+            "w": 22,
+            "h": 58
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-097",
+          "sourceId": "head-097",
+          "type": "path",
+          "label": "path-head",
+          "bbox": {
+            "x": 432,
+            "y": 296,
+            "w": 136,
+            "h": 88
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-098",
+          "sourceId": "head-098",
+          "type": "path",
+          "label": "path-head",
+          "bbox": {
+            "x": 434,
+            "y": 304,
+            "w": 40,
+            "h": 42
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-099",
+          "sourceId": "head-099",
+          "type": "path",
+          "label": "path-head",
+          "bbox": {
+            "x": 542,
+            "y": 306,
+            "w": 22,
+            "h": 46
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-100",
+          "sourceId": "head-100",
+          "type": "path",
+          "label": "path-head",
+          "bbox": {
+            "x": 452,
+            "y": 202,
+            "w": 48,
+            "h": 38
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-101",
+          "sourceId": "head-101",
+          "type": "ellipse",
+          "label": "ellipse-head",
+          "bbox": {
+            "x": 458,
+            "y": 325,
+            "w": 20,
+            "h": 14
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-102",
+          "sourceId": "head-102",
+          "type": "ellipse",
+          "label": "ellipse-head",
+          "bbox": {
+            "x": 522,
+            "y": 325,
+            "w": 20,
+            "h": 14
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-103",
+          "sourceId": "head-103",
+          "type": "ellipse",
+          "label": "ellipse-head",
+          "bbox": {
+            "x": 402,
+            "y": 311,
+            "w": 24,
+            "h": 14
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        },
+        {
+          "id": "obj-head-104",
+          "sourceId": "head-104",
+          "type": "ellipse",
+          "label": "ellipse-head",
+          "bbox": {
+            "x": 574,
+            "y": 311,
+            "w": 24,
+            "h": 14
+          },
+          "origin": {
+            "x": 500,
+            "y": 405
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-eye-l",
+      "name": "Eye L",
+      "sourceId": "eye-left",
+      "parentId": "head",
+      "animationName": "blink",
+      "index": 23,
+      "visible": true,
+      "objectCount": 7,
+      "bbox": {
+        "x": 400,
+        "y": 250,
+        "w": 68,
+        "h": 61
+      },
+      "objects": [
+        {
+          "id": "obj-eye-left-105",
+          "sourceId": "eye-left-105",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 416,
+            "y": 266,
+            "w": 52,
+            "h": 45
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-left-106",
+          "sourceId": "eye-left-106",
+          "type": "ellipse",
+          "label": "ellipse-eye-",
+          "bbox": {
+            "x": 424.5,
+            "y": 273.5,
+            "w": 31,
+            "h": 33
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-left-107",
+          "sourceId": "eye-left-107",
+          "type": "ellipse",
+          "label": "ellipse-eye-",
+          "bbox": {
+            "x": 426.5,
+            "y": 283.5,
+            "w": 19,
+            "h": 21
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-left-111",
+          "sourceId": "eye-left-111",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 414,
+            "y": 258,
+            "w": 50,
+            "h": 20
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-left-112",
+          "sourceId": "eye-left-112",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 400,
+            "y": 274,
+            "w": 17,
+            "h": 19
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-left-113",
+          "sourceId": "eye-left-113",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 417,
+            "y": 256,
+            "w": 12,
+            "h": 12
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-left-114",
+          "sourceId": "eye-left-114",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 433,
+            "y": 250,
+            "w": 10,
+            "h": 13
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-pupil-l",
+      "name": "Pupil L",
+      "sourceId": "pupil-left",
+      "parentId": "eye-left",
+      "animationName": "look",
+      "index": 24,
+      "visible": true,
+      "objectCount": 3,
+      "bbox": {
+        "x": 429.2,
+        "y": 279.2,
+        "w": 20.4,
+        "h": 22.4
+      },
+      "objects": [
+        {
+          "id": "obj-pupil-left-108",
+          "sourceId": "pupil-left-108",
+          "type": "ellipse",
+          "label": "ellipse-pupi",
+          "bbox": {
+            "x": 432,
+            "y": 283,
+            "w": 16,
+            "h": 18
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-pupil-left-109",
+          "sourceId": "pupil-left-109",
+          "type": "ellipse",
+          "label": "ellipse-pupi",
+          "bbox": {
+            "x": 429.2,
+            "y": 279.2,
+            "w": 9.6,
+            "h": 9.6
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-pupil-left-110",
+          "sourceId": "pupil-left-110",
+          "type": "ellipse",
+          "label": "ellipse-pupi",
+          "bbox": {
+            "x": 444.4,
+            "y": 296.4,
+            "w": 5.2,
+            "h": 5.2
+          },
+          "origin": {
+            "x": 443,
+            "y": 290
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-eye-r",
+      "name": "Eye R",
+      "sourceId": "eye-right",
+      "parentId": "head",
+      "animationName": "blink",
+      "index": 25,
+      "visible": true,
+      "objectCount": 7,
+      "bbox": {
+        "x": 532,
+        "y": 250,
+        "w": 68,
+        "h": 61
+      },
+      "objects": [
+        {
+          "id": "obj-eye-right-115",
+          "sourceId": "eye-right-115",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 532,
+            "y": 266,
+            "w": 52,
+            "h": 45
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-right-116",
+          "sourceId": "eye-right-116",
+          "type": "ellipse",
+          "label": "ellipse-eye-",
+          "bbox": {
+            "x": 544.5,
+            "y": 273.5,
+            "w": 31,
+            "h": 33
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-right-117",
+          "sourceId": "eye-right-117",
+          "type": "ellipse",
+          "label": "ellipse-eye-",
+          "bbox": {
+            "x": 554.5,
+            "y": 283.5,
+            "w": 19,
+            "h": 21
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-right-121",
+          "sourceId": "eye-right-121",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 536,
+            "y": 258,
+            "w": 50,
+            "h": 20
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-right-122",
+          "sourceId": "eye-right-122",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 583,
+            "y": 274,
+            "w": 17,
+            "h": 19
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-right-123",
+          "sourceId": "eye-right-123",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 571,
+            "y": 256,
+            "w": 12,
+            "h": 12
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-eye-right-124",
+          "sourceId": "eye-right-124",
+          "type": "path",
+          "label": "path-eye-",
+          "bbox": {
+            "x": 557,
+            "y": 250,
+            "w": 10,
+            "h": 13
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-pupil-r",
+      "name": "Pupil R",
+      "sourceId": "pupil-right",
+      "parentId": "eye-right",
+      "animationName": "look",
+      "index": 26,
+      "visible": true,
+      "objectCount": 3,
+      "bbox": {
+        "x": 550.4,
+        "y": 279.2,
+        "w": 20.4,
+        "h": 22.4
+      },
+      "objects": [
+        {
+          "id": "obj-pupil-right-118",
+          "sourceId": "pupil-right-118",
+          "type": "ellipse",
+          "label": "ellipse-pupi",
+          "bbox": {
+            "x": 552,
+            "y": 283,
+            "w": 16,
+            "h": 18
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-pupil-right-119",
+          "sourceId": "pupil-right-119",
+          "type": "ellipse",
+          "label": "ellipse-pupi",
+          "bbox": {
+            "x": 561.2,
+            "y": 279.2,
+            "w": 9.6,
+            "h": 9.6
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        },
+        {
+          "id": "obj-pupil-right-120",
+          "sourceId": "pupil-right-120",
+          "type": "ellipse",
+          "label": "ellipse-pupi",
+          "bbox": {
+            "x": 550.4,
+            "y": 296.4,
+            "w": 5.2,
+            "h": 5.2
+          },
+          "origin": {
+            "x": 557,
+            "y": 290
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-brow-l",
+      "name": "Brow L",
+      "sourceId": "brow-left",
+      "parentId": "head",
+      "animationName": "brow-emote",
+      "index": 27,
+      "visible": true,
+      "objectCount": 1,
+      "bbox": {
+        "x": 410,
+        "y": 238,
+        "w": 60,
+        "h": 24
+      },
+      "objects": [
+        {
+          "id": "obj-brow-left-125",
+          "sourceId": "brow-left-125",
+          "type": "path",
+          "label": "path-brow",
+          "bbox": {
+            "x": 410,
+            "y": 238,
+            "w": 60,
+            "h": 24
+          },
+          "origin": {
+            "x": 455,
+            "y": 252
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-brow-r",
+      "name": "Brow R",
+      "sourceId": "brow-right",
+      "parentId": "head",
+      "animationName": "brow-emote",
+      "index": 28,
+      "visible": true,
+      "objectCount": 1,
+      "bbox": {
+        "x": 530,
+        "y": 238,
+        "w": 60,
+        "h": 24
+      },
+      "objects": [
+        {
+          "id": "obj-brow-right-126",
+          "sourceId": "brow-right-126",
+          "type": "path",
+          "label": "path-brow",
+          "bbox": {
+            "x": 530,
+            "y": 238,
+            "w": 60,
+            "h": 24
+          },
+          "origin": {
+            "x": 545,
+            "y": 252
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-mouth-smile",
+      "name": "Mouth Smile",
+      "sourceId": "mouth-smile",
+      "parentId": "head",
+      "animationName": "expression-smile",
+      "index": 29,
+      "visible": true,
+      "objectCount": 1,
+      "bbox": {
+        "x": 458,
+        "y": 352,
+        "w": 84,
+        "h": 20
+      },
+      "objects": [
+        {
+          "id": "obj-mouth-smile-127",
+          "sourceId": "mouth-smile-127",
+          "type": "path",
+          "label": "path-mout",
+          "animationName": "expression-smile",
+          "bbox": {
+            "x": 458,
+            "y": 352,
+            "w": 84,
+            "h": 20
+          },
+          "origin": {
+            "x": 500,
+            "y": 358
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-mouth-frown",
+      "name": "Mouth Frown",
+      "sourceId": "mouth-frown",
+      "parentId": "head",
+      "animationName": "expression-frown",
+      "index": 30,
+      "visible": false,
+      "objectCount": 1,
+      "bbox": {
+        "x": 462,
+        "y": 354,
+        "w": 76,
+        "h": 16
+      },
+      "objects": [
+        {
+          "id": "obj-mouth-frown-128",
+          "sourceId": "mouth-frown-128",
+          "type": "path",
+          "label": "path-mout",
+          "bbox": {
+            "x": 462,
+            "y": 354,
+            "w": 76,
+            "h": 16
+          },
+          "origin": {
+            "x": 500,
+            "y": 358
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-mouth-open",
+      "name": "Mouth Open",
+      "sourceId": "mouth-open",
+      "parentId": "head",
+      "animationName": "expression-talk",
+      "index": 31,
+      "visible": false,
+      "objectCount": 2,
+      "bbox": {
+        "x": 480,
+        "y": 351,
+        "w": 40,
+        "h": 26
+      },
+      "objects": [
+        {
+          "id": "obj-mouth-open-129",
+          "sourceId": "mouth-open-129",
+          "type": "ellipse",
+          "label": "ellipse-mout",
+          "bbox": {
+            "x": 480,
+            "y": 351,
+            "w": 40,
+            "h": 26
+          },
+          "origin": {
+            "x": 500,
+            "y": 358
+          }
+        },
+        {
+          "id": "obj-mouth-open-130",
+          "sourceId": "mouth-open-130",
+          "type": "ellipse",
+          "label": "ellipse-mout",
+          "bbox": {
+            "x": 489,
+            "y": 364,
+            "w": 22,
+            "h": 12
+          },
+          "origin": {
+            "x": 500,
+            "y": 358
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-hair-front",
+      "name": "Hair Front",
+      "sourceId": "hair-front",
+      "parentId": "head",
+      "animationName": "bang-drift",
+      "index": 32,
+      "visible": true,
+      "objectCount": 4,
+      "bbox": {
+        "x": 382,
+        "y": 148,
+        "w": 238,
+        "h": 214
+      },
+      "objects": [
+        {
+          "id": "obj-hair-front-131",
+          "sourceId": "hair-front-131",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 382,
+            "y": 148,
+            "w": 238,
+            "h": 120
+          },
+          "origin": {
+            "x": 500,
+            "y": 205
+          }
+        },
+        {
+          "id": "obj-hair-front-132",
+          "sourceId": "hair-front-132",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 434,
+            "y": 156,
+            "w": 90,
+            "h": 38
+          },
+          "origin": {
+            "x": 500,
+            "y": 205
+          }
+        },
+        {
+          "id": "obj-hair-front-133",
+          "sourceId": "hair-front-133",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 384,
+            "y": 244,
+            "w": 22,
+            "h": 118
+          },
+          "origin": {
+            "x": 500,
+            "y": 205
+          }
+        },
+        {
+          "id": "obj-hair-front-134",
+          "sourceId": "hair-front-134",
+          "type": "path",
+          "label": "path-hair",
+          "bbox": {
+            "x": 594,
+            "y": 244,
+            "w": 22,
+            "h": 118
+          },
+          "origin": {
+            "x": 500,
+            "y": 205
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-ear-l",
+      "name": "Ear L",
+      "sourceId": "ear-left",
+      "parentId": "head",
+      "animationName": "ear-twitch",
+      "index": 33,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 290,
+        "y": 252,
+        "w": 114,
+        "h": 84
+      },
+      "objects": [
+        {
+          "id": "obj-ear-left-086",
+          "sourceId": "ear-left-086",
+          "type": "path",
+          "label": "path-ear-",
+          "bbox": {
+            "x": 290,
+            "y": 252,
+            "w": 114,
+            "h": 84
+          },
+          "origin": {
+            "x": 398,
+            "y": 292
+          }
+        },
+        {
+          "id": "obj-ear-left-087",
+          "sourceId": "ear-left-087",
+          "type": "path",
+          "label": "path-ear-",
+          "bbox": {
+            "x": 308,
+            "y": 270,
+            "w": 80,
+            "h": 48
+          },
+          "origin": {
+            "x": 398,
+            "y": 292
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-ear-r",
+      "name": "Ear R",
+      "sourceId": "ear-right",
+      "parentId": "head",
+      "animationName": "ear-twitch",
+      "index": 34,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 596,
+        "y": 252,
+        "w": 114,
+        "h": 84
+      },
+      "objects": [
+        {
+          "id": "obj-ear-right-088",
+          "sourceId": "ear-right-088",
+          "type": "path",
+          "label": "path-ear-",
+          "bbox": {
+            "x": 596,
+            "y": 252,
+            "w": 114,
+            "h": 84
+          },
+          "origin": {
+            "x": 602,
+            "y": 292
+          }
+        },
+        {
+          "id": "obj-ear-right-089",
+          "sourceId": "ear-right-089",
+          "type": "path",
+          "label": "path-ear-",
+          "bbox": {
+            "x": 612,
+            "y": 270,
+            "w": 80,
+            "h": 48
+          },
+          "origin": {
+            "x": 602,
+            "y": 292
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-horn-l",
+      "name": "Horn L",
+      "sourceId": "horn-left",
+      "parentId": "head",
+      "animationName": "horn-wobble",
+      "index": 35,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 304,
+        "y": 84,
+        "w": 162,
+        "h": 144
+      },
+      "objects": [
+        {
+          "id": "obj-horn-left-090",
+          "sourceId": "horn-left-090",
+          "type": "path",
+          "label": "path-horn",
+          "bbox": {
+            "x": 304,
+            "y": 84,
+            "w": 162,
+            "h": 144
+          },
+          "origin": {
+            "x": 438,
+            "y": 212
+          }
+        },
+        {
+          "id": "obj-horn-left-091",
+          "sourceId": "horn-left-091",
+          "type": "path",
+          "label": "path-horn",
+          "bbox": {
+            "x": 356,
+            "y": 182,
+            "w": 102,
+            "h": 36
+          },
+          "origin": {
+            "x": 438,
+            "y": 212
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-horn-r",
+      "name": "Horn R",
+      "sourceId": "horn-right",
+      "parentId": "head",
+      "animationName": "horn-wobble",
+      "index": 36,
+      "visible": true,
+      "objectCount": 2,
+      "bbox": {
+        "x": 534,
+        "y": 84,
+        "w": 162,
+        "h": 144
+      },
+      "objects": [
+        {
+          "id": "obj-horn-right-092",
+          "sourceId": "horn-right-092",
+          "type": "path",
+          "label": "path-horn",
+          "bbox": {
+            "x": 534,
+            "y": 84,
+            "w": 162,
+            "h": 144
+          },
+          "origin": {
+            "x": 562,
+            "y": 212
+          }
+        },
+        {
+          "id": "obj-horn-right-093",
+          "sourceId": "horn-right-093",
+          "type": "path",
+          "label": "path-horn",
+          "bbox": {
+            "x": 542,
+            "y": 182,
+            "w": 102,
+            "h": 36
+          },
+          "origin": {
+            "x": 562,
+            "y": 212
+          }
+        }
+      ]
+    },
+    {
+      "id": "layer-star-clip",
+      "name": "Star Clip",
+      "sourceId": "star-clip",
+      "parentId": "hair-front",
+      "animationName": "sparkle",
+      "index": 37,
+      "visible": true,
+      "objectCount": 1,
+      "bbox": {
+        "x": 526,
+        "y": 186,
+        "w": 28,
+        "h": 28
+      },
+      "objects": [
+        {
+          "id": "obj-star-clip-135",
+          "sourceId": "star-clip-135",
+          "type": "star",
+          "label": "star-star",
+          "bbox": {
+            "x": 526,
+            "y": 186,
+            "w": 28,
+            "h": 28
+          },
+          "origin": {
+            "x": 576,
+            "y": 218
+          }
+        }
+      ]
+    }
+  ],
+  "objectIndex": {
+    "obj-root-001": {
+      "layerId": "layer-root",
+      "type": "path"
+    },
+    "obj-hair-back-002": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-hair-back-003": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-hair-back-004": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-hair-back-005": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-hair-back-006": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-hair-back-007": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-hair-back-008": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-hair-back-009": {
+      "layerId": "layer-hair-back",
+      "type": "path"
+    },
+    "obj-tail-010": {
+      "layerId": "layer-tail",
+      "type": "path"
+    },
+    "obj-tail-011": {
+      "layerId": "layer-tail",
+      "type": "path"
+    },
+    "obj-tail-012": {
+      "layerId": "layer-tail",
+      "type": "path"
+    },
+    "obj-leg-left-thigh-013": {
+      "layerId": "layer-leg-l-thigh",
+      "type": "path"
+    },
+    "obj-leg-left-thigh-014": {
+      "layerId": "layer-leg-l-thigh",
+      "type": "path"
+    },
+    "obj-leg-left-shin-015": {
+      "layerId": "layer-leg-l-shin",
+      "type": "path"
+    },
+    "obj-leg-left-shin-016": {
+      "layerId": "layer-leg-l-shin",
+      "type": "ellipse"
+    },
+    "obj-leg-left-shin-017": {
+      "layerId": "layer-leg-l-shin",
+      "type": "ellipse"
+    },
+    "obj-leg-left-shin-018": {
+      "layerId": "layer-leg-l-shin",
+      "type": "path"
+    },
+    "obj-leg-left-foot-019": {
+      "layerId": "layer-leg-l-foot",
+      "type": "path"
+    },
+    "obj-leg-left-foot-020": {
+      "layerId": "layer-leg-l-foot",
+      "type": "path"
+    },
+    "obj-leg-left-foot-021": {
+      "layerId": "layer-leg-l-foot",
+      "type": "path"
+    },
+    "obj-leg-left-foot-022": {
+      "layerId": "layer-leg-l-foot",
+      "type": "path"
+    },
+    "obj-leg-left-foot-023": {
+      "layerId": "layer-leg-l-foot",
+      "type": "path"
+    },
+    "obj-leg-left-toes-024": {
+      "layerId": "layer-leg-l-toes",
+      "type": "path"
+    },
+    "obj-leg-right-thigh-025": {
+      "layerId": "layer-leg-r-thigh",
+      "type": "path"
+    },
+    "obj-leg-right-thigh-026": {
+      "layerId": "layer-leg-r-thigh",
+      "type": "path"
+    },
+    "obj-leg-right-shin-027": {
+      "layerId": "layer-leg-r-shin",
+      "type": "path"
+    },
+    "obj-leg-right-shin-028": {
+      "layerId": "layer-leg-r-shin",
+      "type": "ellipse"
+    },
+    "obj-leg-right-shin-029": {
+      "layerId": "layer-leg-r-shin",
+      "type": "ellipse"
+    },
+    "obj-leg-right-shin-030": {
+      "layerId": "layer-leg-r-shin",
+      "type": "path"
+    },
+    "obj-leg-right-foot-031": {
+      "layerId": "layer-leg-r-foot",
+      "type": "path"
+    },
+    "obj-leg-right-foot-032": {
+      "layerId": "layer-leg-r-foot",
+      "type": "path"
+    },
+    "obj-leg-right-foot-033": {
+      "layerId": "layer-leg-r-foot",
+      "type": "path"
+    },
+    "obj-leg-right-foot-034": {
+      "layerId": "layer-leg-r-foot",
+      "type": "path"
+    },
+    "obj-leg-right-foot-035": {
+      "layerId": "layer-leg-r-foot",
+      "type": "path"
+    },
+    "obj-leg-right-toes-036": {
+      "layerId": "layer-leg-r-toes",
+      "type": "path"
+    },
+    "obj-hips-037": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-038": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-039": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-040": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-041": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-042": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-043": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-044": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-045": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-hips-046": {
+      "layerId": "layer-hips-skirt",
+      "type": "path"
+    },
+    "obj-torso-047": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-048": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-049": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-050": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-051": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-052": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-053": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-054": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-torso-055": {
+      "layerId": "layer-torso",
+      "type": "star"
+    },
+    "obj-torso-056": {
+      "layerId": "layer-torso",
+      "type": "star"
+    },
+    "obj-torso-057": {
+      "layerId": "layer-torso",
+      "type": "path"
+    },
+    "obj-arm-left-upper-058": {
+      "layerId": "layer-arm-l-upper",
+      "type": "path"
+    },
+    "obj-arm-left-upper-059": {
+      "layerId": "layer-arm-l-upper",
+      "type": "path"
+    },
+    "obj-arm-left-upper-060": {
+      "layerId": "layer-arm-l-upper",
+      "type": "path"
+    },
+    "obj-arm-left-fore-061": {
+      "layerId": "layer-arm-l-forearm",
+      "type": "path"
+    },
+    "obj-arm-left-fore-062": {
+      "layerId": "layer-arm-l-forearm",
+      "type": "path"
+    },
+    "obj-arm-left-fore-063": {
+      "layerId": "layer-arm-l-forearm",
+      "type": "ellipse"
+    },
+    "obj-arm-left-fore-064": {
+      "layerId": "layer-arm-l-forearm",
+      "type": "path"
+    },
+    "obj-arm-left-hand-065": {
+      "layerId": "layer-arm-l-hand",
+      "type": "path"
+    },
+    "obj-arm-left-hand-066": {
+      "layerId": "layer-arm-l-hand",
+      "type": "ellipse"
+    },
+    "obj-arm-left-fingers-067": {
+      "layerId": "layer-arm-l-fingers",
+      "type": "path"
+    },
+    "obj-arm-left-fingers-068": {
+      "layerId": "layer-arm-l-fingers",
+      "type": "path"
+    },
+    "obj-arm-left-fingers-069": {
+      "layerId": "layer-arm-l-fingers",
+      "type": "path"
+    },
+    "obj-arm-left-fingers-070": {
+      "layerId": "layer-arm-l-fingers",
+      "type": "path"
+    },
+    "obj-arm-right-upper-071": {
+      "layerId": "layer-arm-r-upper",
+      "type": "path"
+    },
+    "obj-arm-right-upper-072": {
+      "layerId": "layer-arm-r-upper",
+      "type": "path"
+    },
+    "obj-arm-right-upper-073": {
+      "layerId": "layer-arm-r-upper",
+      "type": "path"
+    },
+    "obj-arm-right-fore-074": {
+      "layerId": "layer-arm-r-forearm",
+      "type": "path"
+    },
+    "obj-arm-right-fore-075": {
+      "layerId": "layer-arm-r-forearm",
+      "type": "path"
+    },
+    "obj-arm-right-fore-076": {
+      "layerId": "layer-arm-r-forearm",
+      "type": "ellipse"
+    },
+    "obj-arm-right-fore-077": {
+      "layerId": "layer-arm-r-forearm",
+      "type": "path"
+    },
+    "obj-arm-right-hand-078": {
+      "layerId": "layer-arm-r-hand",
+      "type": "path"
+    },
+    "obj-arm-right-hand-079": {
+      "layerId": "layer-arm-r-hand",
+      "type": "ellipse"
+    },
+    "obj-arm-right-fingers-080": {
+      "layerId": "layer-arm-r-fingers",
+      "type": "path"
+    },
+    "obj-arm-right-fingers-081": {
+      "layerId": "layer-arm-r-fingers",
+      "type": "path"
+    },
+    "obj-arm-right-fingers-082": {
+      "layerId": "layer-arm-r-fingers",
+      "type": "path"
+    },
+    "obj-arm-right-fingers-083": {
+      "layerId": "layer-arm-r-fingers",
+      "type": "path"
+    },
+    "obj-neck-084": {
+      "layerId": "layer-neck",
+      "type": "path"
+    },
+    "obj-neck-085": {
+      "layerId": "layer-neck",
+      "type": "path"
+    },
+    "obj-head-094": {
+      "layerId": "layer-head",
+      "type": "path"
+    },
+    "obj-head-095": {
+      "layerId": "layer-head",
+      "type": "path"
+    },
+    "obj-head-096": {
+      "layerId": "layer-head",
+      "type": "path"
+    },
+    "obj-head-097": {
+      "layerId": "layer-head",
+      "type": "path"
+    },
+    "obj-head-098": {
+      "layerId": "layer-head",
+      "type": "path"
+    },
+    "obj-head-099": {
+      "layerId": "layer-head",
+      "type": "path"
+    },
+    "obj-head-100": {
+      "layerId": "layer-head",
+      "type": "path"
+    },
+    "obj-head-101": {
+      "layerId": "layer-head",
+      "type": "ellipse"
+    },
+    "obj-head-102": {
+      "layerId": "layer-head",
+      "type": "ellipse"
+    },
+    "obj-head-103": {
+      "layerId": "layer-head",
+      "type": "ellipse"
+    },
+    "obj-head-104": {
+      "layerId": "layer-head",
+      "type": "ellipse"
+    },
+    "obj-eye-left-105": {
+      "layerId": "layer-eye-l",
+      "type": "path"
+    },
+    "obj-eye-left-106": {
+      "layerId": "layer-eye-l",
+      "type": "ellipse"
+    },
+    "obj-eye-left-107": {
+      "layerId": "layer-eye-l",
+      "type": "ellipse"
+    },
+    "obj-eye-left-111": {
+      "layerId": "layer-eye-l",
+      "type": "path"
+    },
+    "obj-eye-left-112": {
+      "layerId": "layer-eye-l",
+      "type": "path"
+    },
+    "obj-eye-left-113": {
+      "layerId": "layer-eye-l",
+      "type": "path"
+    },
+    "obj-eye-left-114": {
+      "layerId": "layer-eye-l",
+      "type": "path"
+    },
+    "obj-pupil-left-108": {
+      "layerId": "layer-pupil-l",
+      "type": "ellipse"
+    },
+    "obj-pupil-left-109": {
+      "layerId": "layer-pupil-l",
+      "type": "ellipse"
+    },
+    "obj-pupil-left-110": {
+      "layerId": "layer-pupil-l",
+      "type": "ellipse"
+    },
+    "obj-eye-right-115": {
+      "layerId": "layer-eye-r",
+      "type": "path"
+    },
+    "obj-eye-right-116": {
+      "layerId": "layer-eye-r",
+      "type": "ellipse"
+    },
+    "obj-eye-right-117": {
+      "layerId": "layer-eye-r",
+      "type": "ellipse"
+    },
+    "obj-eye-right-121": {
+      "layerId": "layer-eye-r",
+      "type": "path"
+    },
+    "obj-eye-right-122": {
+      "layerId": "layer-eye-r",
+      "type": "path"
+    },
+    "obj-eye-right-123": {
+      "layerId": "layer-eye-r",
+      "type": "path"
+    },
+    "obj-eye-right-124": {
+      "layerId": "layer-eye-r",
+      "type": "path"
+    },
+    "obj-pupil-right-118": {
+      "layerId": "layer-pupil-r",
+      "type": "ellipse"
+    },
+    "obj-pupil-right-119": {
+      "layerId": "layer-pupil-r",
+      "type": "ellipse"
+    },
+    "obj-pupil-right-120": {
+      "layerId": "layer-pupil-r",
+      "type": "ellipse"
+    },
+    "obj-brow-left-125": {
+      "layerId": "layer-brow-l",
+      "type": "path"
+    },
+    "obj-brow-right-126": {
+      "layerId": "layer-brow-r",
+      "type": "path"
+    },
+    "obj-mouth-smile-127": {
+      "layerId": "layer-mouth-smile",
+      "type": "path"
+    },
+    "obj-mouth-frown-128": {
+      "layerId": "layer-mouth-frown",
+      "type": "path"
+    },
+    "obj-mouth-open-129": {
+      "layerId": "layer-mouth-open",
+      "type": "ellipse"
+    },
+    "obj-mouth-open-130": {
+      "layerId": "layer-mouth-open",
+      "type": "ellipse"
+    },
+    "obj-hair-front-131": {
+      "layerId": "layer-hair-front",
+      "type": "path"
+    },
+    "obj-hair-front-132": {
+      "layerId": "layer-hair-front",
+      "type": "path"
+    },
+    "obj-hair-front-133": {
+      "layerId": "layer-hair-front",
+      "type": "path"
+    },
+    "obj-hair-front-134": {
+      "layerId": "layer-hair-front",
+      "type": "path"
+    },
+    "obj-ear-left-086": {
+      "layerId": "layer-ear-l",
+      "type": "path"
+    },
+    "obj-ear-left-087": {
+      "layerId": "layer-ear-l",
+      "type": "path"
+    },
+    "obj-ear-right-088": {
+      "layerId": "layer-ear-r",
+      "type": "path"
+    },
+    "obj-ear-right-089": {
+      "layerId": "layer-ear-r",
+      "type": "path"
+    },
+    "obj-horn-left-090": {
+      "layerId": "layer-horn-l",
+      "type": "path"
+    },
+    "obj-horn-left-091": {
+      "layerId": "layer-horn-l",
+      "type": "path"
+    },
+    "obj-horn-right-092": {
+      "layerId": "layer-horn-r",
+      "type": "path"
+    },
+    "obj-horn-right-093": {
+      "layerId": "layer-horn-r",
+      "type": "path"
+    },
+    "obj-star-clip-135": {
+      "layerId": "layer-star-clip",
+      "type": "star"
+    }
+  },
+  "timeline": {
+    "fps": 30,
+    "duration": 4,
+    "keyframes": [
+      {
+        "id": "kf-136",
+        "targetId": "torso",
+        "targetType": "layer",
+        "time": 0,
+        "y": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-137",
+        "targetId": "torso",
+        "targetType": "layer",
+        "time": 2,
+        "y": -7,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-138",
+        "targetId": "torso",
+        "targetType": "layer",
+        "time": 4,
+        "y": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-139",
+        "targetId": "head",
+        "targetType": "layer",
+        "time": 0,
+        "rotation": 0,
+        "y": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-140",
+        "targetId": "head",
+        "targetType": "layer",
+        "time": 2,
+        "rotation": -1.6,
+        "y": -2,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-141",
+        "targetId": "head",
+        "targetType": "layer",
+        "time": 4,
+        "rotation": 0,
+        "y": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-142",
+        "targetId": "tail",
+        "targetType": "layer",
+        "time": 0,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-143",
+        "targetId": "tail",
+        "targetType": "layer",
+        "time": 1,
+        "rotation": 7,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-144",
+        "targetId": "tail",
+        "targetType": "layer",
+        "time": 3,
+        "rotation": -7,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-145",
+        "targetId": "tail",
+        "targetType": "layer",
+        "time": 4,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-146",
+        "targetId": "hair-front",
+        "targetType": "layer",
+        "time": 0,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-147",
+        "targetId": "hair-front",
+        "targetType": "layer",
+        "time": 2,
+        "rotation": 1.3,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-148",
+        "targetId": "hair-front",
+        "targetType": "layer",
+        "time": 4,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-149",
+        "targetId": "hair-back",
+        "targetType": "layer",
+        "time": 0,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-150",
+        "targetId": "hair-back",
+        "targetType": "layer",
+        "time": 2,
+        "rotation": -1.1,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-151",
+        "targetId": "hair-back",
+        "targetType": "layer",
+        "time": 4,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-152",
+        "targetId": "eye-left",
+        "targetType": "layer",
+        "time": 0,
+        "scale": 1,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-153",
+        "targetId": "eye-left",
+        "targetType": "layer",
+        "time": 1.9,
+        "scale": 1,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-154",
+        "targetId": "eye-left",
+        "targetType": "layer",
+        "time": 2,
+        "scale": 0.12,
+        "easing": "power2.in"
+      },
+      {
+        "id": "kf-155",
+        "targetId": "eye-left",
+        "targetType": "layer",
+        "time": 2.12,
+        "scale": 1,
+        "easing": "power2.out"
+      },
+      {
+        "id": "kf-156",
+        "targetId": "eye-right",
+        "targetType": "layer",
+        "time": 0,
+        "scale": 1,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-157",
+        "targetId": "eye-right",
+        "targetType": "layer",
+        "time": 1.9,
+        "scale": 1,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-158",
+        "targetId": "eye-right",
+        "targetType": "layer",
+        "time": 2,
+        "scale": 0.12,
+        "easing": "power2.in"
+      },
+      {
+        "id": "kf-159",
+        "targetId": "eye-right",
+        "targetType": "layer",
+        "time": 2.12,
+        "scale": 1,
+        "easing": "power2.out"
+      },
+      {
+        "id": "kf-160",
+        "targetId": "arm-right-upper",
+        "targetType": "layer",
+        "time": 2.3,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-161",
+        "targetId": "arm-right-upper",
+        "targetType": "layer",
+        "time": 2.6,
+        "rotation": -34,
+        "easing": "power2.out"
+      },
+      {
+        "id": "kf-162",
+        "targetId": "arm-right-upper",
+        "targetType": "layer",
+        "time": 2.9,
+        "rotation": -20,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-163",
+        "targetId": "arm-right-upper",
+        "targetType": "layer",
+        "time": 3.2,
+        "rotation": -34,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-164",
+        "targetId": "arm-right-upper",
+        "targetType": "layer",
+        "time": 3.5,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-165",
+        "targetId": "arm-right-hand",
+        "targetType": "layer",
+        "time": 2.5,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-166",
+        "targetId": "arm-right-hand",
+        "targetType": "layer",
+        "time": 2.8,
+        "rotation": 16,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-167",
+        "targetId": "arm-right-hand",
+        "targetType": "layer",
+        "time": 3.1,
+        "rotation": -12,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-168",
+        "targetId": "arm-right-hand",
+        "targetType": "layer",
+        "time": 3.35,
+        "rotation": 10,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-169",
+        "targetId": "arm-right-hand",
+        "targetType": "layer",
+        "time": 3.55,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-170",
+        "targetId": "ear-left",
+        "targetType": "layer",
+        "time": 2.4,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-171",
+        "targetId": "ear-left",
+        "targetType": "layer",
+        "time": 2.55,
+        "rotation": -8,
+        "easing": "sine.inOut"
+      },
+      {
+        "id": "kf-172",
+        "targetId": "ear-left",
+        "targetType": "layer",
+        "time": 2.75,
+        "rotation": 0,
+        "easing": "sine.inOut"
+      }
+    ]
+  }
+}

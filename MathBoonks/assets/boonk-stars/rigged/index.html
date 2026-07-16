@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Boonk Minotaur SVG Rig Demo</title>
+    <style>
+      html, body { min-height: 100%; margin: 0; background: radial-gradient(ellipse at 50% 28%, #241a5a, #0a0e22 70%);
+        color: #f7ead4; font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif; overflow: hidden; }
+      body { display: grid; place-items: center; }
+      .neon { position: fixed; inset: 0; opacity: .5; background: repeating-linear-gradient(90deg,#12183a 0 44px,#161d46 44px 88px); z-index: 0; }
+      main { position: relative; z-index: 1; display: grid; grid-template-columns: minmax(280px, 520px) minmax(220px, 320px);
+        gap: 24px; align-items: center; width: min(1040px, calc(100vw - 32px)); }
+      object { width: 100%; height: auto; filter: drop-shadow(0 22px 34px rgba(0,0,0,.42)); }
+      section { display: grid; gap: 12px; }
+      h1 { margin: 0; font-size: clamp(1.6rem, 4vw, 3.2rem); line-height: 0.95; }
+      p { margin: 0; color: rgba(247,234,212,0.8); line-height: 1.45; }
+      code { color: #72f9ff; }
+      .bar { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 6px; }
+      button { font: 800 .9rem system-ui; padding: 8px 13px; border-radius: 10px; cursor: pointer; color: #0a0e22;
+        background: linear-gradient(180deg,#ffdf7a,#ffb43f); border: 2px solid #a9700f; }
+      @media (max-width: 760px) { main { grid-template-columns: 1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="neon"></div>
+    <main>
+      <object id="boonk-object" type="image/svg+xml" data="./boonk-minotaur.svg" aria-label="Animated Boonk SVG rig"></object>
+      <section>
+        <h1>Boonk SVG Rig</h1>
+        <p>Slender faceted minotaur girl. Idle: breathe, tail sway, head bob, auto-blink. Gestures snap with anticipation → overshoot → settle.</p>
+        <p>Target IDs like <code>#head</code>, <code>#arm-right</code>, <code>#tail</code>, <code>#eye-left</code>.</p>
+        <div class="bar">
+          <button data-g="nod">🙂 Nod</button>
+          <button data-g="axe">🪓 Axe raise</button>
+          <button data-g="cheer">🎉 Cheer</button>
+          <button data-g="wince">😖 Wince</button>
+          <button data-g="blink">😉 Blink</button>
+        </div>
+      </section>
+    </main>
+    <script>
+      const object = document.querySelector("#boonk-object");
+      object.addEventListener("load", () => {
+        const doc = object.contentDocument;
+        const $ = (id) => doc.getElementById(id);
+        const rootE = $("root"), headE = $("head"), tailE = $("tail"),
+              armRE = $("arm-right"), armLE = $("arm-left"), eyeLE = $("eye-left"), eyeRE = $("eye-right");
+        if (!rootE) return;
+
+        let t0 = null;
+        const g = { nod: 0, axe: 0, cheer: 0, wince: 0, blink: 0 };
+        const on = { nod: 0, axe: 0, cheer: 0, wince: 0, blink: 0 };
+        const SPD = { nod: 0.024, axe: 0.020, cheer: 0.017, wince: 0.026, blink: 0.11 };
+        // expressive one-shot curve: anticipation -> action(overshoot) -> hold -> settle
+        const eob = (x) => { const c = 2.4, e = c + 1; return 1 + e * Math.pow(x - 1, 3) + c * Math.pow(x - 1, 2); };
+        const eio = (x) => 0.5 - 0.5 * Math.cos(x * Math.PI);
+        function gc(p) {
+          if (p <= 0) return 0;
+          if (p < 0.10) return -0.18 * Math.sin((p / 0.10) * Math.PI);   // anticipation (reverse)
+          if (p < 0.46) { const x = (p - 0.10) / 0.36; return eob(x); }  // snap to peak (overshoot)
+          if (p < 0.60) return 1;                                        // hold
+          const x = (p - 0.60) / 0.40; return 1 - eio(x);                // settle back
+        }
+        let nextBlink = 1.8;
+        function frame(ts) {
+          if (t0 === null) t0 = ts; const t = (ts - t0) / 1000;
+          for (const k in on) { if (on[k]) { g[k] += SPD[k]; if (g[k] >= 1) { g[k] = 0; on[k] = 0; } } }
+          if (t > nextBlink && !on.blink) { on.blink = 1; g.blink = 0.0001; nextBlink = t + 2.6 + ((t * 17) % 3.5); }
+          const breathe = 1 + 0.006 * Math.sin(t * 1.9), bob = -3 * Math.sin(t * 1.9);
+          const nod = gc(g.nod), axe = gc(g.axe), wince = gc(g.wince);
+          // cheer: crouch -> leap -> land, arms up, tail wag
+          let ch = g.cheer, hop = 0, arms = 0, tailW = 0;
+          if (ch > 0) {
+            if (ch < 0.13) { hop = 8 * Math.sin((ch / 0.13) * Math.PI); }
+            else { const x = (ch - 0.13) / 0.87; hop = -110 * Math.sin(x * Math.PI); }
+            arms = Math.sin(ch * Math.PI); tailW = Math.abs(Math.sin(ch * Math.PI * 3));
+          }
+          rootE.style.transform = `translateY(${bob + hop - 12 * nod - 10 * axe}px) scaleY(${breathe - 0.05 * wince + 0.03 * arms})`;
+          headE.style.transform = `translateY(${-1.6 * Math.sin(t * 1.9) - 8 * wince + 4 * arms}px) rotate(${1.1 * Math.sin(t * 1.5) + 20 * nod - 4 * axe - 11 * wince}deg)`;
+          tailE.style.transform = `rotate(${6.5 * Math.sin(t * 2.7) + 26 * tailW}deg)`;
+          armRE.style.transform = `rotate(${1.1 * Math.sin(t * 2.3) - 16 * axe - 30 * arms + 18 * wince}deg)`;
+          armLE.style.transform = `rotate(${-44 * arms + 22 * wince}deg)`;
+          const blink = 1 - Math.sin(g.blink * Math.PI);
+          eyeLE.style.transform = `scaleY(${blink})`; eyeRE.style.transform = `scaleY(${blink})`;
+          requestAnimationFrame(frame);
+        }
+        document.querySelectorAll("button").forEach((b) => b.onclick = () => { const k = b.dataset.g; if (!on[k]) { g[k] = 0.0001; on[k] = 1; } });
+        requestAnimationFrame(frame);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1144 1375" role="img" aria-labelledby="boonkTitle boonkDesc">
+  <title id="boonkTitle">Official Boonk Star vector redesign</title>
+  <desc id="boonkDesc">A simplified angular cartoon minotaur girl vector inspired by flat geometric fox-style planes.</desc>
+  <defs>
+    <filter id="stickerShadow" x="-12%" y="-10%" width="124%" height="122%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#180f0a" flood-opacity=".24"/>
+    </filter>
+    <linearGradient id="axeSteel" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#f1eadc"/>
+      <stop offset=".45" stop-color="#8c8275"/>
+      <stop offset="1" stop-color="#3c3734"/>
+    </linearGradient>
+  </defs>
+
+  <g id="boonk-redesign" filter="url(#stickerShadow)">
+    <path id="sticker-fill" d="M242 206 L340 64 L457 168 L565 116 L684 164 L806 60 L902 202 L881 326 L977 436 L906 592 L934 818 L831 942 L787 1194 L619 1284 L473 1267 L333 1186 L301 944 L185 842 L226 624 L157 477 L247 330 Z" fill="#fff"/>
+    <path id="sticker-outline" d="M242 206 L340 64 L457 168 L565 116 L684 164 L806 60 L902 202 L881 326 L977 436 L906 592 L934 818 L831 942 L787 1194 L619 1284 L473 1267 L333 1186 L301 944 L185 842 L226 624 L157 477 L247 330 Z" fill="none" stroke="#f7f7f1" stroke-width="42" stroke-linejoin="round"/>
+    <path id="ink-outline" d="M242 206 L340 64 L457 168 L565 116 L684 164 L806 60 L902 202 L881 326 L977 436 L906 592 L934 818 L831 942 L787 1194 L619 1284 L473 1267 L333 1186 L301 944 L185 842 L226 624 L157 477 L247 330 Z" fill="none" stroke="#21150e" stroke-width="10" stroke-linejoin="round" opacity=".72"/>
+
+    <g id="horns">
+      <polygon points="338,80 246,206 270,298 452,196" fill="#ffe2a8"/>
+      <polygon points="246,206 236,320 344,285 452,196" fill="#c9873d"/>
+      <polygon points="338,80 452,196 548,166 440,126" fill="#f6bd63"/>
+      <polygon points="806,76 694,196 792,286 898,318" fill="#c9873d"/>
+      <polygon points="806,76 694,196 596,166 696,126" fill="#f6bd63"/>
+      <polygon points="898,318 902,204 806,76 694,196" fill="#ffe2a8"/>
+      <polygon points="287,235 333,178 385,206 338,266" fill="#5d321b" opacity=".62"/>
+      <polygon points="855,235 809,178 757,206 804,266" fill="#5d321b" opacity=".62"/>
+    </g>
+
+    <g id="hair">
+      <polygon points="382,184 548,120 684,166 764,268 727,430 640,370 562,442 458,376 360,438 324,288" fill="#3a2115"/>
+      <polygon points="548,120 506,298 381,184" fill="#6b351c"/>
+      <polygon points="548,120 640,370 684,166" fill="#4f2a19"/>
+      <polygon points="382,184 458,376 324,288" fill="#8f481e"/>
+      <polygon points="684,166 727,430 640,370" fill="#7c3d1d"/>
+      <polygon points="360,438 458,376 418,650 316,645" fill="#2b1b12"/>
+      <polygon points="727,430 640,370 702,648 812,620" fill="#2b1b12"/>
+      <polygon points="458,376 562,442 418,650" fill="#5a2f1a"/>
+      <polygon points="640,370 562,442 702,648" fill="#402316"/>
+    </g>
+
+    <g id="ears">
+      <polygon points="330,300 222,350 316,416 406,360" fill="#a95124"/>
+      <polygon points="222,350 296,378 316,416" fill="#f07a12"/>
+      <polygon points="812,300 918,350 824,416 736,360" fill="#a95124"/>
+      <polygon points="918,350 846,378 824,416" fill="#f07a12"/>
+    </g>
+
+    <g id="face">
+      <polygon points="458,214 684,214 760,380 650,534 492,534 382,380" fill="#c8652a"/>
+      <polygon points="458,214 572,190 544,534 382,380" fill="#f07a12"/>
+      <polygon points="572,190 684,214 650,534 544,534" fill="#ff941c"/>
+      <polygon points="382,380 492,534 438,406" fill="#9d431f"/>
+      <polygon points="760,380 650,534 704,406" fill="#bd5d1d"/>
+      <polygon points="492,534 544,534 520,588" fill="#f6b064"/>
+      <polygon points="544,534 650,534 612,590" fill="#ffe0a3"/>
+      <polygon points="520,386 565,404 536,428 478,416" fill="#1f3140"/>
+      <polygon points="628,404 674,386 716,416 658,428" fill="#1f3140"/>
+      <polygon points="492,366 552,350 570,368 510,382" fill="#2b1b12"/>
+      <polygon points="650,368 590,350 572,368 632,382" fill="#2b1b12"/>
+      <polygon points="548,440 594,440 618,482 572,500 528,482" fill="#8a3f18"/>
+      <polygon points="550,444 594,444 574,468" fill="#f6bd63"/>
+      <polygon points="522,548 622,548 602,584 542,584" fill="#21150e"/>
+      <polygon points="541,552 603,552 588,570 556,570" fill="#f7c989"/>
+      <polygon points="538,150 604,150 626,220 516,220" fill="#f5aa28"/>
+      <polygon points="572,164 608,204 572,238 536,204" fill="#fff0a8"/>
+      <polygon points="572,180 594,204 572,224 550,204" fill="#f07a12"/>
+    </g>
+
+    <g id="neck-and-scarf">
+      <polygon points="500,560 640,560 674,644 472,644" fill="#8a3f18"/>
+      <polygon points="418,586 726,586 688,690 452,690" fill="#bf3424"/>
+      <polygon points="418,586 572,630 452,690" fill="#f07a12"/>
+      <polygon points="572,630 726,586 688,690" fill="#8f2f25"/>
+    </g>
+
+    <g id="body">
+      <polygon points="374,650 770,650 826,964 318,964" fill="#173142"/>
+      <polygon points="374,650 560,650 492,964 318,964" fill="#1f5e78"/>
+      <polygon points="560,650 770,650 826,964 492,964" fill="#254c60"/>
+      <polygon points="470,662 674,662 642,818 500,818" fill="#f2d6a0"/>
+      <polygon points="500,818 642,818 616,940 526,940" fill="#d28b35"/>
+      <polygon points="318,964 826,964 796,1040 348,1040" fill="#5a2c16"/>
+      <polygon points="500,632 644,632 620,696 524,696" fill="#f6bd63"/>
+      <circle cx="572" cy="870" r="54" fill="#f0a42c"/>
+      <polygon points="572,828 600,870 572,912 544,870" fill="#ffe2a8"/>
+      <circle cx="572" cy="870" r="33" fill="none" stroke="#6b351c" stroke-width="10"/>
+    </g>
+
+    <g id="arms">
+      <polygon points="374,672 246,804 312,930 418,796" fill="#9a4d24"/>
+      <polygon points="246,804 212,940 312,930" fill="#f07a12"/>
+      <polygon points="770,672 896,792 840,920 728,794" fill="#9a4d24"/>
+      <polygon points="896,792 936,914 840,920" fill="#f07a12"/>
+      <polygon points="306,912 408,900 430,992 330,1016" fill="#5a2c16"/>
+      <polygon points="732,902 838,912 814,1018 714,990" fill="#5a2c16"/>
+    </g>
+
+    <g id="legs-and-boots">
+      <polygon points="384,1030 514,1030 498,1192 376,1192" fill="#6b351c"/>
+      <polygon points="630,1030 760,1030 768,1192 646,1192" fill="#6b351c"/>
+      <polygon points="376,1192 508,1192 472,1260 348,1240" fill="#3a2115"/>
+      <polygon points="646,1192 778,1192 800,1240 676,1260" fill="#3a2115"/>
+      <polygon points="386,1080 504,1080 492,1126 370,1126" fill="#d28b35"/>
+      <polygon points="640,1080 758,1080 776,1126 654,1126" fill="#d28b35"/>
+      <polygon points="348,1240 472,1260 420,1290 330,1272" fill="#8a3f18"/>
+      <polygon points="676,1260 800,1240 818,1272 728,1290" fill="#8a3f18"/>
+    </g>
+
+    <g id="tail">
+      <polygon points="318,1026 178,1084 154,1196 268,1216 362,1138" fill="#5a2c16"/>
+      <polygon points="178,1084 154,1196 244,1146" fill="#2b1b12"/>
+      <polygon points="268,1216 362,1138 304,1104" fill="#8a3f18"/>
+    </g>
+
+    <g id="axe">
+      <polygon points="842,704 884,690 810,1210 768,1224" fill="#5a2c16"/>
+      <polygon points="842,704 856,700 782,1218 768,1224" fill="#f6bd63"/>
+      <polygon points="828,650 1060,548 1018,760 840,812" fill="url(#axeSteel)"/>
+      <polygon points="828,650 930,660 840,812" fill="#f7efe0"/>
+      <polygon points="930,660 1060,548 1018,760" fill="#74675b"/>
+      <polygon points="862,684 944,648 936,740 850,770" fill="#2b1b12" opacity=".52"/>
+      <circle cx="914" cy="706" r="48" fill="#f0a42c"/>
+      <polygon points="914,670 946,706 914,742 882,706" fill="#ffe2a8"/>
+    </g>
+  </g>
+</svg>

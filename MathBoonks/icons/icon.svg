@@ -1,0 +1,54 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#122a63"/>
+      <stop offset="0.55" stop-color="#0c1a48"/>
+      <stop offset="1" stop-color="#1c0f42"/>
+    </linearGradient>
+    <linearGradient id="mfill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5ffbff"/>
+      <stop offset="1" stop-color="#2bd4e8"/>
+    </linearGradient>
+    <linearGradient id="bfill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff7ad1"/>
+      <stop offset="1" stop-color="#ff3fae"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.62">
+      <stop offset="0" stop-color="#3a5bd0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3a5bd0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- full-square opaque bg (safe for maskable + apple-touch corner masking) -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect width="512" height="512" fill="url(#glow)"/>
+
+  <!-- faint 'world of numbers' math operators in the backdrop -->
+  <g fill="#5b78d6" opacity="0.14" font-family="Arial Black, system-ui, sans-serif" font-weight="900">
+    <text x="70" y="150" font-size="70" text-anchor="middle">+</text>
+    <text x="440" y="410" font-size="78" text-anchor="middle">×</text>
+    <text x="452" y="150" font-size="64" text-anchor="middle">÷</text>
+    <text x="70" y="430" font-size="70" text-anchor="middle">−</text>
+  </g>
+
+  <!-- neon horizon line for the synthwave-toon feel -->
+  <line x1="40" y1="360" x2="472" y2="360" stroke="#ff3fae" stroke-width="4" opacity="0.28"/>
+
+  <!-- chunky-sticker MB wordmark: hard ink shadow, then ink-outlined neon letters -->
+  <g font-family="Arial Black, Arial, system-ui, sans-serif" font-weight="900" font-size="248" text-anchor="middle" dominant-baseline="middle">
+    <!-- hard offset shadow -->
+    <text x="180" y="278" fill="#070f26">M</text>
+    <text x="338" y="278" fill="#070f26">B</text>
+    <!-- ink outline + neon fill (paint-order draws stroke behind fill = sticker chrome) -->
+    <text x="174" y="270" fill="url(#mfill)" stroke="#0a1330" stroke-width="14" paint-order="stroke" stroke-linejoin="round">M</text>
+    <text x="332" y="270" fill="url(#bfill)" stroke="#0a1330" stroke-width="14" paint-order="stroke" stroke-linejoin="round">B</text>
+  </g>
+
+  <!-- a couple of sticker operator discs as accents (inside the maskable safe zone) -->
+  <g font-family="Arial Black, system-ui, sans-serif" font-weight="900" text-anchor="middle" dominant-baseline="central">
+    <circle cx="150" cy="150" r="30" fill="#ffd84a" stroke="#0a1330" stroke-width="7"/>
+    <text x="150" y="152" font-size="40" fill="#0a1330">+</text>
+    <circle cx="368" cy="368" r="30" fill="#b6ff5c" stroke="#0a1330" stroke-width="7"/>
+    <text x="368" y="370" font-size="38" fill="#0a1330">×</text>
+  </g>
+</svg>
